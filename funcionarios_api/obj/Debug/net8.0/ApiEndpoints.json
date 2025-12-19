@@ -1,0 +1,276 @@
+[
+  {
+    "ContainingType": "funcionarios_api.Controllers.FuncionariosController",
+    "Method": "AlterarFuncionario",
+    "RelativePath": "api/Funcionarios/alterarFuncionario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "funcionario",
+        "Type": "funcionarios_api.Dtos.FuncionarioAlterar",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "funcionarios_api.Retornos.RetornoFuncionarios",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "funcionarios_api.Controllers.FuncionariosController",
+    "Method": "BuscarFuncionario",
+    "RelativePath": "api/Funcionarios/buscarFuncionario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "funcionarios_api.Retornos.RetornoFuncionarios",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "funcionarios_api.Controllers.FuncionariosController",
+    "Method": "BuscarFuncionarios",
+    "RelativePath": "api/Funcionarios/buscarFuncionarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "funcionarios_api.Retornos.RetornoFuncionarios",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "funcionarios_api.Controllers.FuncionariosController",
+    "Method": "ExcluirFuncionario",
+    "RelativePath": "api/Funcionarios/excluirFuncionario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "funcionarios_api.Retornos.RetornoFuncionarios",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "funcionarios_api.Controllers.FuncionariosController",
+    "Method": "RegistrarFuncionario",
+    "RelativePath": "api/Funcionarios/registrarFuncionario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "funcionario",
+        "Type": "funcionarios_api.Dtos.FuncionarioRegistrar",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "funcionarios_api.Retornos.RetornoFuncionarios",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "funcionarios_api.Controllers.FuncionariosLoginController",
+    "Method": "AlterarFuncionarioLogin",
+    "RelativePath": "api/FuncionariosLogin/alterarLoginFuncionario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "funcionario",
+        "Type": "funcionarios_api.Dtos.FuncionarioLoginAlterar",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "funcionarios_api.Retornos.RetornoFuncionariosLogin",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "funcionarios_api.Controllers.FuncionariosLoginController",
+    "Method": "BuscarFuncionarioLogin",
+    "RelativePath": "api/FuncionariosLogin/buscarLoginFuncionario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "funcionarios_api.Retornos.RetornoFuncionariosLogin",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "funcionarios_api.Controllers.FuncionariosLoginController",
+    "Method": "BuscarFuncionariosLogin",
+    "RelativePath": "api/FuncionariosLogin/buscarLoginFuncionarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "funcionarios_api.Retornos.RetornoFuncionariosLogin",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "funcionarios_api.Controllers.FuncionariosLoginController",
+    "Method": "ExcluirFuncionarioLogin",
+    "RelativePath": "api/FuncionariosLogin/excluirLoginFuncionario/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "funcionarios_api.Retornos.RetornoFuncionariosLogin",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "funcionarios_api.Controllers.FuncionariosLoginController",
+    "Method": "RegistrarFuncionarioLogin",
+    "RelativePath": "api/FuncionariosLogin/registrarLoginFuncionario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "funcionario",
+        "Type": "funcionarios_api.Dtos.FuncionarioLoginRegistrar",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "funcionarios_api.Retornos.RetornoFuncionariosLogin",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "funcionarios_api.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login/Funcion\u00E1rioLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "funcionarios_api.Dtos.FuncionarioLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "funcionarios_api.Retornos.RetornoLogin",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
