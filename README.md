@@ -6,6 +6,8 @@ Um exercício em criação de API, com autenticação com JSON Web Token (C# Asp
 Outros detalhes:
 
     .Criação do banco de dados com mapeamento usando a interface IEntityTypeConfiguration
+
+    .Uso de senha salt no armazenamento da senha
   
     .Armazenamento de senha com Hash (SHA-256)
   
